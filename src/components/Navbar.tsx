@@ -15,8 +15,8 @@ const EcoTrackNavbar = () => {
 
   const navItems = [
     { name: 'Dashboard', icon: BarChart3, href: '#dashboard' },
-    { name: 'Peta Interaktif', icon: MapPin, href: '#map' },
-    { name: 'Komunitas', icon: Users, href: '#community' },
+    { name: 'Peta Interaktif', icon: MapPin, href: '/peta' },
+    { name: 'Komunitas', icon: Users, href: '/Komunitas' },
   ];
 
   return (

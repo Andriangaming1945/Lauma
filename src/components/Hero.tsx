@@ -44,7 +44,6 @@ const Hero = () => {
   return (
     <>
       <style jsx>{`
-        /* Animasi fadeIn, slideUp, typewriter, dll (copy dari kode kamu) */
 
         @keyframes fadeIn {
           from {
@@ -139,7 +138,7 @@ const Hero = () => {
           }
         }
 
-        /* Chatbox styles */
+     
         .chatbox {
           position: fixed;
           bottom: 80px;

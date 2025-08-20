@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Users, MapPin, Award, Calendar, MessageCircle, Heart, Share2, Camera, Plus, Search, Filter, ChevronDown, Leaf, Star } from 'lucide-react';
+import { Users, MapPin, Award, Calendar, MessageCircle, Heart, Share2, Camera, Plus, Search, Filter, ChevronDown, Leaf, Star, Home } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const LaumaCommunity = () => {
@@ -138,10 +138,19 @@ const LaumaCommunity = () => {
               </div>
             </div>
             
-            <button className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-4 py-2 rounded-lg flex items-center space-x-2 hover:from-green-600 hover:to-emerald-600 transition-all duration-300 shadow-lg hover:shadow-xl">
-              <Plus className="w-4 h-4" />
-              <span className="hidden sm:inline">Buat Komunitas</span>
-            </button>
+            <div className="flex items-center gap-2">
+              <button className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-4 py-2 rounded-lg flex items-center space-x-2 hover:from-green-600 hover:to-emerald-600 transition-all duration-300 shadow-lg hover:shadow-xl">
+                <Plus className="w-4 h-4" />
+                <span className="hidden sm:inline">Buat Komunitas</span>
+              </button>
+              <Link
+                className="bg-gradient-to-r from-red-500 to-red-500 text-white px-4 py-2 rounded-lg flex items-center space-x-2 transition-all duration-300 shadow-lg hover:shadow-xl"
+                to="/">
+                <Home className="w-4 h-4" />
+                <span className="hidden sm:inline">Kembali</span>
+              </Link>
+            </div>
+          
           </div>
         </div>
       </div>
