@@ -14,7 +14,7 @@ export default function App() {
       <Route path="/guidebook" element={<Guidebook />} />
       <Route path="/report" element={<Report />} />
       <Route path="/peta" element={<Petalingkungan />}></Route>
-      <Route path="/komunitas" element={< Komunitasu/>}></Route>
+      <Route path="/komunitas" element={<Komunitasu/>}></Route>
       <Route path="/join" element={<Join />} />
     </Routes>
   );
